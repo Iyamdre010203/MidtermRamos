@@ -1,7 +1,7 @@
-[ubuntu]
+[ubuntu_ufw]
 192.168.56.102
 
-[centos]
+[centos_firewalld]
 192.168.56.104
 
 

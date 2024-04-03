@@ -5,7 +5,7 @@
   
     - name: Ubuntu tasks
       block:
-        - name: Install ufw on Ubuntu
+        - name: Install ufw for Ubuntu
           ansible.builtin.apt:
             name: ufw
             state: present
@@ -21,7 +21,7 @@
 
     - name: CentOS tasks
       block:
-        - name: Install firewalld on CentOS
+        - name: Install firewalld for CentOS
           ansible.builtin.yum:
             name: firewalld
             state: present
